@@ -1,0 +1,16 @@
+.dish-card {
+  flex: 0 0 auto;
+  width: 50%;
+  margin-right: 20px;
+  text-align: center;
+  background-color: transparent;
+  backdrop-filter: blur(10%);
+  color: white;
+  padding: 50px;
+}
+
+.dish-card img {
+  width: 70%;
+  height: 70%;
+  object-fit: fill;
+}

@@ -1,0 +1,55 @@
+/* ReservationForm.css */
+.form-container {
+  max-width: inherit;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.error-msg {
+  color: #ff5733;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff2a00;
+}

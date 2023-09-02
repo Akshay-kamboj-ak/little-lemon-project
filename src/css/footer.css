@@ -1,0 +1,42 @@
+/* Footer.css */
+.footer {
+  background-color: #171717;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.footer-logo h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-contact {
+  flex: 1;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-social {
+  font-size: 24px;
+}
+
+.footer-social a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
