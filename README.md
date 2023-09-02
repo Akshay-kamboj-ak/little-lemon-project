@@ -5,31 +5,24 @@
    git clone https://github.com/your-username/your-project.git
 Change to the project directory:
 
-shell
-
+```shell
 cd your-project
+```
 Install project dependencies:
-
 Using npm:
-shell
-
+```shell
 npm install
+```
 Using Yarn:
-shell
-
+```shell
 yarn install
+```
 Usage
 To run the development server:
-
-shell
-
+```shell
 npm run dev
+```
 # or
+```shell
 yarn dev
-To build for production:
-
-shell
-
-npm run build
-# or
-yarn build
+```
